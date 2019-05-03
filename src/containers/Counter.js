@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import CounterValue from '../p-components/CounterValue';
-import CounterIncrementButton from '../p-components/CounterIncrementButton';
-import CounterDecrementButton from '../p-components/CounterDecrementButton';
-import { increment, decrement } from '../../redux/counter/actions';
+import CounterValue from '../components/CounterValue';
+import CounterIncrementButton from '../components/CounterIncrementButton';
+import CounterDecrementButton from '../components/CounterDecrementButton';
+import { increment, decrement } from '../redux/counter/actions';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
